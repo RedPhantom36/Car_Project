@@ -50,7 +50,7 @@ here:
 			//Пользователь заполняет данные о машине в массивы с номером "n"
 			cout << "\nЗаполните форму, введите соответствующие данные:\n";
 			cout << "Название автомобиля:\t"; cin >> name[option2]; cout << "\n";
-			cout << "Год выпуска:\t"; cin >> year[option2]; cout << "\n";
+			cout << "Год выпуска (г.в.):\t"; cin >> year[option2]; cout << "\n";
 			cout << "Скорость:\t"; cin >> speed[option2]; cout << "\n";
 			cout << "Объём двигателя:\t"; cin >> engine_capacity[option2]; cout << "\n";
 			cout << "Количество дверей:\t"; cin >> doors[option2]; cout << "\n";
@@ -72,7 +72,7 @@ here:
 
 			cout << "\nИзвестные данные:\n";
 			cout << "Название автомобиля:\t" << name[option2] << endl;
-			cout << "Год выпуска:\t" << year[option2] << endl;
+			cout << "Год выпуска (г.в.):\t" << year[option2] << endl;
 			cout << "Скорость:\t" << speed[option2] << endl;
 			cout << "Объём двигателя:\t" << engine_capacity[option2] << endl;
 			cout << "Количество дверей:\t" << doors[option2] << endl;
